@@ -1,0 +1,508 @@
+{
+ "genesis_total": 210,
+ "rule": "sum(amplitude) over visible rows of spectra == 210 (genesis @ seq 2)",
+ "evaluation": [
+  {
+   "lineage_seq": 1,
+   "line": "canonical",
+   "total": 0,
+   "rule_holds": true,
+   "state_sha256": "779552558fec8072b091c0282350c7691695436ed1507ed0a2b435beb2a8930a",
+   "rows": 0
+  },
+  {
+   "lineage_seq": 2,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "1a1a0fd6517e44e6c42db7e78072ee62862bf9e002680357d7b0b24fc26672b0",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 3,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "28bfac0b33519eb7815b40f8c9d85052a1aa9e7512a552fa61bec294c903192c",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 4,
+   "line": "canonical",
+   "total": 190,
+   "rule_holds": false,
+   "state_sha256": "82d17e753826d035cb2323dc41b769ab0e7dfc91fe0373cabf25cc28ea3f7bec",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 5,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "9937858d59dd5f65cdb982b050d5200b7d2b17297edf8d08c42694deac208500",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 6,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "9937858d59dd5f65cdb982b050d5200b7d2b17297edf8d08c42694deac208500",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 7,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "3e82af42d52d12c7a7476707045026fe2a29941260546f5fc20aa57ae5a3ef61",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 8,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "3e82af42d52d12c7a7476707045026fe2a29941260546f5fc20aa57ae5a3ef61",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 9,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "e6ae24fa7f8fa2f747e3bc290e834bfdfbfd251d7c0324c476e61f8261b77a12",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 10,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "e57440de3de77036603e7a0de5a9bb9febd2e87f4dfbe6a22b2b0d1a86192080",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 11,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "9572f56b8ed30b821643e518e83dc85a9c3727b14194defaf3a4a1805e549e1c",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 12,
+   "line": "canonical",
+   "total": 190,
+   "rule_holds": false,
+   "state_sha256": "032df52c89ac9a244b46c85f923cd036c6c06369257e6dd7be0bc250c51ed2b8",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 13,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "3219fed771b9f973499170ebf91cf03482c4f3423832080870450d1dec4297e4",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 14,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "3219fed771b9f973499170ebf91cf03482c4f3423832080870450d1dec4297e4",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 15,
+   "line": "canonical",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "5d47cf8280a94dbf776f7cb4a637c960a72a1bb05f26c2e421fa182725cc02f0",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 10,
+   "line": "abandoned-source",
+   "total": 210,
+   "rule_holds": true,
+   "state_sha256": "a1ed4c8ca04f427876ba3cc933763dade2c514ccf5ba6e213ba6e48da48cb018",
+   "rows": 6
+  }
+ ],
+ "violations": [
+  {
+   "lineage_seq": 4,
+   "line": "canonical",
+   "total": 190,
+   "rule_holds": false,
+   "state_sha256": "82d17e753826d035cb2323dc41b769ab0e7dfc91fe0373cabf25cc28ea3f7bec",
+   "rows": 6
+  },
+  {
+   "lineage_seq": 12,
+   "line": "canonical",
+   "total": 190,
+   "rule_holds": false,
+   "state_sha256": "032df52c89ac9a244b46c85f923cd036c6c06369257e6dd7be0bc250c51ed2b8",
+   "rows": 6
+  }
+ ],
+ "cross_checks": [
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 1 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 2 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 3 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 4 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 5 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 6 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 7 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 8 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 9 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-source.jsonl seq 10 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 10 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 11 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 12 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 13 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 14 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "rec-sha",
+   "desc": "changes-restored.jsonl seq 15 记录摘要可独立复算",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "img-sha",
+   "desc": "imgA-seq0002.lmi 信封 sha256 独立复算一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "img-hdr",
+   "desc": "imgA-seq0002.lmi 图像头合法(format=1 且 horizon<=sequence)",
+   "ok": true,
+   "detail": "format=1 horizon=0 sequence=2"
+  },
+  {
+   "id": "img-sha",
+   "desc": "imgB-seq0009.lmi 信封 sha256 独立复算一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "img-hdr",
+   "desc": "imgB-seq0009.lmi 图像头合法(format=1 且 horizon<=sequence)",
+   "ok": true,
+   "detail": "format=1 horizon=6 sequence=9"
+  },
+  {
+   "id": "img-sha",
+   "desc": "imgC-seq0015.lmi 信封 sha256 独立复算一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "img-hdr",
+   "desc": "imgC-seq0015.lmi 图像头合法(format=1 且 horizon<=sequence)",
+   "ok": true,
+   "detail": "format=1 horizon=13 sequence=15"
+  },
+  {
+   "id": "src-contig",
+   "desc": "源 lineage 记录序号自基点连续无缺口",
+   "ok": true,
+   "detail": "base=0 head=10 n=10"
+  },
+  {
+   "id": "dst-contig",
+   "desc": "恢复 lineage 记录序号自基点连续无缺口",
+   "ok": true,
+   "detail": "base=9 head=15 n=6"
+  },
+  {
+   "id": "pivot-base",
+   "desc": "恢复实例 history_base 与基点图像序号一致",
+   "ok": true,
+   "detail": "history_base=9 imgB.sequence=9"
+  },
+  {
+   "id": "pivot-first",
+   "desc": "恢复 lineage 首条记录序号 == 基点+1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "base-gap-410",
+   "desc": "基点之前游标探测全部被 410 拒绝(基点缺口成立)",
+   "ok": true,
+   "detail": "probes=[(0, 410), (8, 410)]"
+  },
+  {
+   "id": "abandoned-tail",
+   "desc": "源头部存在基点之后的被遗弃尾部",
+   "ok": true,
+   "detail": "abandoned=[10]"
+  },
+  {
+   "id": "lineage-collision",
+   "desc": "被遗弃序号在两条 lineage 内容不同(必须按谱系对齐,不能按序号合并)",
+   "ok": true,
+   "detail": "src[10].sha=bfee3ac36245 dst[10].sha=cb83813172a1"
+  },
+  {
+   "id": "dup-identical",
+   "desc": "重复分页重取的记录逐字节一致,无同号异文(独立复核采集日志)",
+   "ok": true,
+   "detail": "deliveries=31 unique=16 redelivered=15 collector_counted=15"
+  },
+  {
+   "id": "dup-count",
+   "desc": "采集器去重计数与采集日志独立统计一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "head-monotonic",
+   "desc": "各 lineage 观测到的 head 单调不减",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "xcheck-imgA",
+   "desc": "重放状态与 imgA@2 图像可见状态逐行一致",
+   "ok": true,
+   "detail": "rows=6 replay_rows=6"
+  },
+  {
+   "id": "xcheck-imgB",
+   "desc": "重放状态与 imgB@9 图像可见状态逐行一致",
+   "ok": true,
+   "detail": "rows=6 replay_rows=6"
+  },
+  {
+   "id": "xcheck-imgC",
+   "desc": "重放状态与 imgC@15 图像可见状态逐行一致",
+   "ok": true,
+   "detail": "rows=6 replay_rows=6"
+  },
+  {
+   "id": "violations-as-designed",
+   "desc": "全量证据下发现且仅发现设计的两处瞬时违规",
+   "ok": true,
+   "detail": "violations=[4, 12]"
+  },
+  {
+   "id": "equal-endpoints-trap",
+   "desc": "imgB@9 与 imgC@15 总量相等,但 (9,13) 内确有违规(端点相等≠中间合规)",
+   "ok": true,
+   "detail": "total@9=210 total@15=210"
+  }
+ ],
+ "image_visible_totals": {
+  "imgA": {
+   "1": 0,
+   "2": 210
+  },
+  "imgB": {
+   "6": 210,
+   "7": 210,
+   "8": 210,
+   "9": 210
+  },
+  "imgC": {
+   "13": 210,
+   "14": 210,
+   "15": 210
+  }
+ },
+ "strategies": {
+  "A": {
+   "name": "A 全量变更留存",
+   "images": [
+    "imgB"
+   ],
+   "src_tail": 10,
+   "dst_tail": 6,
+   "bytes": 7964,
+   "fits_budget": false,
+   "provable": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "abandoned_provable": [
+    10
+   ],
+   "violations_found": [
+    4,
+    12
+   ],
+   "violations_missed": [],
+   "uncertain": []
+  },
+  "B": {
+   "name": "B 仅周期图像",
+   "images": [
+    "imgA",
+    "imgB",
+    "imgC"
+   ],
+   "src_tail": 0,
+   "dst_tail": 0,
+   "bytes": 3594,
+   "fits_budget": true,
+   "provable": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15
+   ],
+   "abandoned_provable": [],
+   "violations_found": [],
+   "violations_missed": [
+    4,
+    12
+   ],
+   "uncertain": [
+    3,
+    4,
+    5,
+    10,
+    11,
+    12
+   ]
+  },
+  "C": {
+   "name": "C 预算内混合(图像+记录尾窗)",
+   "images": [
+    "imgA",
+    "imgB"
+   ],
+   "src_tail": 1,
+   "dst_tail": 6,
+   "bytes": 5066,
+   "fits_budget": true,
+   "provable": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "abandoned_provable": [
+    10
+   ],
+   "violations_found": [
+    12
+   ],
+   "violations_missed": [
+    4
+   ],
+   "uncertain": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ "budget_bytes": 5973
+}

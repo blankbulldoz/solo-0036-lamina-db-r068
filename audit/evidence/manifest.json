@@ -1,0 +1,116 @@
+{
+ "generated_by": "audit/analyze.py",
+ "rule": "sum(amplitude) over visible rows of spectra == 210 (genesis @ seq 2)",
+ "lineages": {
+  "source": {
+   "history_base": 0,
+   "head": 10,
+   "records": 10
+  },
+  "restored": {
+   "history_base": 9,
+   "head": 15,
+   "records": 6
+  }
+ },
+ "pivot": {
+  "image": "imgB",
+  "sequence": 9,
+  "sha256": "3eb711525a2ccb44820488e9e537a7c4d1374c499a6572beb620422b7efbd976"
+ },
+ "abandoned_tail": {
+  "lineage": "source",
+  "sequences": [
+   10
+  ]
+ },
+ "artifacts": [
+  {
+   "path": "changes-restored.jsonl",
+   "bytes": 2262,
+   "sha256": "857b505b1474e95f92ea72f0183e957e7a988b8e716b4661cc73d5a42c32a244",
+   "kind": "change-records",
+   "lineage": "restored",
+   "coverage": "(9..15]",
+   "records": 6
+  },
+  {
+   "path": "changes-source.jsonl",
+   "bytes": 4340,
+   "sha256": "b508c397932afce995ef20818c64e9fe19b01aa0e8a94194977bffb0d4bab6aa",
+   "kind": "change-records",
+   "lineage": "source",
+   "coverage": "(0..10]",
+   "records": 10
+  },
+  {
+   "path": "collection-log.json",
+   "bytes": 8685,
+   "sha256": "abe9a42a3d8ecb6eedcb21a9aa88e386a93089f88eb576bdb0a9392ffb717374",
+   "kind": "collection-log"
+  },
+  {
+   "path": "images/imgA-seq0002.lmi",
+   "bytes": 977,
+   "sha256": "a9cb622c9eceeb7f195aba0dd1a19366988fd0476d715da87df556a063d48167",
+   "kind": "image",
+   "sequence": 2,
+   "horizon": 0,
+   "coverage": "[1..2]"
+  },
+  {
+   "path": "images/imgB-seq0009.lmi",
+   "bytes": 1378,
+   "sha256": "3eb711525a2ccb44820488e9e537a7c4d1374c499a6572beb620422b7efbd976",
+   "kind": "image",
+   "sequence": 9,
+   "horizon": 6,
+   "coverage": "[6..9]"
+  },
+  {
+   "path": "images/imgC-seq0015.lmi",
+   "bytes": 1239,
+   "sha256": "c431ddd186b7e543dc5c7f591d8431c829182f3a7ccd6e0cc4101d241a2186e2",
+   "kind": "image",
+   "sequence": 15,
+   "horizon": 13,
+   "coverage": "[13..15]"
+  }
+ ],
+ "strategy_membership": {
+  "A": {
+   "images": [
+    "imgB"
+   ],
+   "records": "all"
+  },
+  "B": {
+   "images": [
+    "imgA",
+    "imgB",
+    "imgC"
+   ],
+   "records": "none"
+  },
+  "C": {
+   "images": [
+    "imgA",
+    "imgB"
+   ],
+   "records": {
+    "source_tail": [
+     10
+    ],
+    "restored_tail": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  }
+ },
+ "budget_bytes": 5973
+}

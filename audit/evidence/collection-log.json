@@ -1,0 +1,458 @@
+[
+ {
+  "event": "collector_open",
+  "lineage": "source",
+  "history_base": 0,
+  "observed_head": 0
+ },
+ {
+  "event": "below_base_probe",
+  "lineage": "source",
+  "after": 0,
+  "http": 200,
+  "records": 0
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 1,
+  "sha256": "aead38c77f2f52dd5dc4fa8cb0d07d1d6d09a19815bc893c7c0914815f7294f4"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 2,
+  "sha256": "599527031906c422920620574e6efb36219313f58bf7ca905e504700ed7cbf8e"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 0,
+  "got": [
+   1,
+   2
+  ],
+  "cursor": 2,
+  "head": 2,
+  "more": false
+ },
+ {
+  "event": "backup",
+  "image": "imgA",
+  "path": "imgA-seq0002.lmi",
+  "sequence": 2,
+  "horizon": 0,
+  "bytes": 977,
+  "sha256": "a9cb622c9eceeb7f195aba0dd1a19366988fd0476d715da87df556a063d48167"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 1,
+  "sha256": "aead38c77f2f52dd5dc4fa8cb0d07d1d6d09a19815bc893c7c0914815f7294f4"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 2,
+  "sha256": "599527031906c422920620574e6efb36219313f58bf7ca905e504700ed7cbf8e"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 3,
+  "sha256": "5205ba0f0878bb05b55110c8e562bb4716fcdaddd82f85f16b0d2387836f3e1c"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 0,
+  "got": [
+   1,
+   2,
+   3
+  ],
+  "cursor": 3,
+  "head": 7,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 4,
+  "sha256": "4ce7a4f6497e48f492d28f2185c3ee5193445a530621c1a73e9983cf765ea2ce"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 5,
+  "sha256": "8bc9705b01918ab2f1f78cde7611cffca66c7dc89b0eee854551387070bb51f4"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 6,
+  "sha256": "8f6915e02c1c0e2b13d6643e3e197c543ec07d813e10eb0ecb6aeab063fe7eaa"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 3,
+  "got": [
+   4,
+   5,
+   6
+  ],
+  "cursor": 6,
+  "head": 7,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 7,
+  "sha256": "cb4a30471c86bddc7c97ee23a85f863dfeae1623b2fda8da0b38969d7d4488c9"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 6,
+  "got": [
+   7
+  ],
+  "cursor": 7,
+  "head": 7,
+  "more": false
+ },
+ {
+  "event": "collector_rewind",
+  "lineage": "source",
+  "cursor_from": 7,
+  "cursor_to": 2
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 1,
+  "sha256": "aead38c77f2f52dd5dc4fa8cb0d07d1d6d09a19815bc893c7c0914815f7294f4"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 2,
+  "sha256": "599527031906c422920620574e6efb36219313f58bf7ca905e504700ed7cbf8e"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 3,
+  "sha256": "5205ba0f0878bb05b55110c8e562bb4716fcdaddd82f85f16b0d2387836f3e1c"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 0,
+  "got": [
+   1,
+   2,
+   3
+  ],
+  "cursor": 3,
+  "head": 7,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 4,
+  "sha256": "4ce7a4f6497e48f492d28f2185c3ee5193445a530621c1a73e9983cf765ea2ce"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 5,
+  "sha256": "8bc9705b01918ab2f1f78cde7611cffca66c7dc89b0eee854551387070bb51f4"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 6,
+  "sha256": "8f6915e02c1c0e2b13d6643e3e197c543ec07d813e10eb0ecb6aeab063fe7eaa"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 3,
+  "got": [
+   4,
+   5,
+   6
+  ],
+  "cursor": 6,
+  "head": 7,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 7,
+  "sha256": "cb4a30471c86bddc7c97ee23a85f863dfeae1623b2fda8da0b38969d7d4488c9"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 6,
+  "got": [
+   7
+  ],
+  "cursor": 7,
+  "head": 7,
+  "more": false
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 6,
+  "sha256": "8f6915e02c1c0e2b13d6643e3e197c543ec07d813e10eb0ecb6aeab063fe7eaa"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 7,
+  "sha256": "cb4a30471c86bddc7c97ee23a85f863dfeae1623b2fda8da0b38969d7d4488c9"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 8,
+  "sha256": "62b764905e66210ba04bca5b30a520edb7874cbb6e6d56d4af45c1df5cd1122e"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 5,
+  "got": [
+   6,
+   7,
+   8
+  ],
+  "cursor": 8,
+  "head": 9,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 9,
+  "sha256": "57e7e0f12a2b381f53cd78b6d8463938ffc2718757c725ea74401af30919d44e"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 8,
+  "got": [
+   9
+  ],
+  "cursor": 9,
+  "head": 9,
+  "more": false
+ },
+ {
+  "event": "backup",
+  "image": "imgB",
+  "path": "imgB-seq0009.lmi",
+  "sequence": 9,
+  "horizon": 6,
+  "bytes": 1378,
+  "sha256": "3eb711525a2ccb44820488e9e537a7c4d1374c499a6572beb620422b7efbd976"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 8,
+  "sha256": "62b764905e66210ba04bca5b30a520edb7874cbb6e6d56d4af45c1df5cd1122e"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 9,
+  "sha256": "57e7e0f12a2b381f53cd78b6d8463938ffc2718757c725ea74401af30919d44e"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "source",
+  "sequence": 10,
+  "sha256": "bfee3ac362456dd607d79618945608fdebd98ab6b05475a729964ca6ae9f1bba"
+ },
+ {
+  "event": "page",
+  "lineage": "source",
+  "after": 7,
+  "got": [
+   8,
+   9,
+   10
+  ],
+  "cursor": 10,
+  "head": 10,
+  "more": false
+ },
+ {
+  "event": "source_shutdown",
+  "head": 10,
+  "horizon": 6,
+  "journal_records": 10
+ },
+ {
+  "event": "collector_open",
+  "lineage": "restored",
+  "history_base": 9,
+  "observed_head": 9
+ },
+ {
+  "event": "restore",
+  "from_image": "imgB-seq0009.lmi",
+  "restored_history_base": 9
+ },
+ {
+  "event": "below_base_probe",
+  "lineage": "restored",
+  "after": 0,
+  "http": 410,
+  "detail": "GET /changes?after=0&limit=3: expect 200, got 410: {\"error\":{\"code\":\"snapshot\",\"message\":\"change history begins at 9\"}}"
+ },
+ {
+  "event": "below_base_probe",
+  "lineage": "restored",
+  "after": 8,
+  "http": 410,
+  "detail": "GET /changes?after=8&limit=3: expect 200, got 410: {\"error\":{\"code\":\"snapshot\",\"message\":\"change history begins at 9\"}}"
+ },
+ {
+  "event": "page",
+  "lineage": "restored",
+  "after": 9,
+  "got": [],
+  "cursor": 9,
+  "head": 9,
+  "more": false
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 10,
+  "sha256": "cb83813172a186210e1b097505974badd093025c064826491255cea2b146d98a"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 11,
+  "sha256": "32d6f31ec59270df346800a76a55890eff87942e991cf1803f362d051ca683b2"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 12,
+  "sha256": "2991c76ffa0fb3e3825b7093760188b645ed76dab4fc5084e868792b10d6710e"
+ },
+ {
+  "event": "page",
+  "lineage": "restored",
+  "after": 9,
+  "got": [
+   10,
+   11,
+   12
+  ],
+  "cursor": 12,
+  "head": 13,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 13,
+  "sha256": "672e29fae74ec6954bb2b851e6fa0f5d99e1bc76cd7ae00e30be986149d04265"
+ },
+ {
+  "event": "page",
+  "lineage": "restored",
+  "after": 12,
+  "got": [
+   13
+  ],
+  "cursor": 13,
+  "head": 13,
+  "more": false
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 12,
+  "sha256": "2991c76ffa0fb3e3825b7093760188b645ed76dab4fc5084e868792b10d6710e"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 13,
+  "sha256": "672e29fae74ec6954bb2b851e6fa0f5d99e1bc76cd7ae00e30be986149d04265"
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 14,
+  "sha256": "5812b7a5cc300272f3d71d2a61d04dd9cb29bd6afc63ee01fc8d23f561fb5543"
+ },
+ {
+  "event": "page",
+  "lineage": "restored",
+  "after": 11,
+  "got": [
+   12,
+   13,
+   14
+  ],
+  "cursor": 14,
+  "head": 15,
+  "more": true
+ },
+ {
+  "event": "record_seen",
+  "lineage": "restored",
+  "sequence": 15,
+  "sha256": "07b372b1d1acf38e2953ff4f8e34e6a6682d9064b0ef0722012ae8c92e3d4396"
+ },
+ {
+  "event": "page",
+  "lineage": "restored",
+  "after": 14,
+  "got": [
+   15
+  ],
+  "cursor": 15,
+  "head": 15,
+  "more": false
+ },
+ {
+  "event": "backup",
+  "image": "imgC",
+  "path": "imgC-seq0015.lmi",
+  "sequence": 15,
+  "horizon": 13,
+  "bytes": 1239,
+  "sha256": "c431ddd186b7e543dc5c7f591d8431c829182f3a7ccd6e0cc4101d241a2186e2"
+ },
+ {
+  "event": "restored_shutdown",
+  "head": 15,
+  "horizon": 13,
+  "journal_records": 6
+ },
+ {
+  "event": "flush",
+  "source_records": 10,
+  "restored_records": 6,
+  "source_duplicates": 13,
+  "restored_duplicates": 2
+ }
+]
